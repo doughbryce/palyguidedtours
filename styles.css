@@ -1,0 +1,36 @@
+*, html {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding-top: 30px;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+	color: #2C551C;
+}
+
+#paly-logo {
+	width: 50px;
+}
+
+footer {
+	background: darkgreen;
+	color: lightgray;
+}
+
+a {
+	color: lightgray;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: lightgray;
+	color: darkgreen;
+}
