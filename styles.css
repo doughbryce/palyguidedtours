@@ -23,6 +23,8 @@ h1, h2 {
 footer {
 	background: darkgreen;
 	color: lightgray;
+		display:grid;
+	grid-column
 }
 
 a {
@@ -33,4 +35,33 @@ a {
 a:hover {
 	background-color: lightgray;
 	color: darkgreen;
+}
+
+.max {
+	width: 100%;
+	max-width: 100%;
+}
+#middle{
+
+	display:grid;
+	grid-template-columns: 2;
+	grid-template-rows: 1;
+
+}
+#middleright{
+	text-align:center;
+	grid-column-start:2;
+	grid-column-end:2;
+		grid-row-start: 1;
+	grid-row-end:1;
+	border:1px solid;
+}
+#middleleft{
+	display:grid;
+	text-align:center;
+	grid-column:1;
+	grid-column-end:1;
+	grid-row-start: 1;
+	grid-row-end:1;
+	border:1px solid;
 }
