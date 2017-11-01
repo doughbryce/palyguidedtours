@@ -11,6 +11,11 @@ body {
 	font-family: 'Arial', sans-serif;
 }
 
+#title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 h1, h2 {
 	text-align: center;
 	color: #2C551C;
@@ -23,8 +28,7 @@ h1, h2 {
 footer {
 	background: darkgreen;
 	color: lightgray;
-		display:grid;
-	grid-column
+	display:grid;
 }
 
 a {
@@ -41,27 +45,34 @@ a:hover {
 	width: 100%;
 	max-width: 100%;
 }
-#middle{
 
-	display:grid;
+#footer {
+	padding: 5px;
+}
+
+#middle {
+	display: grid;
 	grid-template-columns: 2;
 	grid-template-rows: 1;
+	padding: 5px;
+	line-height: 1.3em;
 
 }
-#middleright{
-	text-align:center;
-	grid-column-start:2;
-	grid-column-end:2;
-		grid-row-start: 1;
-	grid-row-end:1;
-	border:1px solid;
-}
-#middleleft{
-	display:grid;
-	text-align:center;
-	grid-column:1;
-	grid-column-end:1;
+#middleright {
+	text-align: center;
+	grid-column-start: 2;
+	grid-column-end: 2;
 	grid-row-start: 1;
-	grid-row-end:1;
-	border:1px solid;
+	grid-row-end: 1;
+	line-height: 1.3em;
+}
+
+#middleleft {
+	display: grid;
+	text-align: center;
+	grid-column: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	line-height: 1.3em;
 }
